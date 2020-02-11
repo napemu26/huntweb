@@ -1,0 +1,42 @@
+.product-info {
+  max-width: 700px;
+  margin: 20px auto 0px;
+  padding: 20px;
+  background: #FFF;
+  border-radius: 5px;
+  border: 1px solid #DDD;
+}
+.product-info h1 {
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+}
+.product-info p {
+  color: #666;
+  line-height: 24px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+.product-info a {
+  color: #069;
+}
+.product-info .return-button {
+  height: 42px;
+  border-radius: 5px;
+  border: 2px solid #DA552F;
+  background: none;
+  margin-top: 10px;
+  color: #DA552F;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+.product-info .return-button:hover {
+  color: #FFF;
+  background: #DA552F;
+}
